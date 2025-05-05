@@ -112,7 +112,7 @@ def save_metrics(metrics: dict, file_path: str) -> None:
 
 def main():
     try:
-        params = load_params(params_path='C:/Users/vishn.000/PYTHON CODES/DATA_SCIENCE/MLOPS/MY_CODES/MLOPS_PIPELINE/params.yaml')
+        params = load_params(params_path='C:/Users/vishn.000/PYTHON CODES/DATA_SCIENCE/MLOPS/EXPLE/YT-MLOPS-Complete-ML-Pipeline-main/YT-MLOPS-Complete-ML-Pipeline-main/params.yaml')
         clf = load_model('./models/model.pkl')
         test_data = load_data('./data/processed/test_tfidf.csv')
         
